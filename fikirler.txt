@@ -1,0 +1,2 @@
+* pwm yerine for'lu yapiyi (orijinal driver) denemek 
+* pulse sayisini Timer'e gore degil, pwm her kare dalgasina gelen interrupti arttirarak saymak (Timer A3'un comparator cikisin interrupt'i acmak lazim. Her yukselen kenara bir interrupt gelecek. Onlari sayarsan kac tane pulse uretildigini ogrenirsin)
